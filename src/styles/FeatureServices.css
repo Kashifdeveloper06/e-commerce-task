@@ -1,0 +1,41 @@
+.post-heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: #23a6f0;
+}
+.post-txt {
+  font-size: 40px;
+  font-weight: 700;
+  color: #252b42;
+}
+.posts-list-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px 20px !important;
+  margin-top: 15px;
+  padding: 5% 15%;
+}
+.post-learn-more {
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+}
+@media only screen and (max-width: 999px) {
+  .services-div-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-div {
+    margin-top: 80px;
+  }
+  .posts-list-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px 20px !important;
+    margin-top: 15px;
+    padding: 0px;
+  }
+  .post-txt {
+    text-align: center;
+  }
+}

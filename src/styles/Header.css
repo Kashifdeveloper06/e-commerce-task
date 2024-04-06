@@ -1,0 +1,124 @@
+.header-main {
+  height: 58px;
+  padding: 24px 36px;
+  background-color: #23856d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-txt {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+.logo {
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.links-div {
+  margin-left: 120px;
+}
+.link {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+  margin-left: 15px;
+}
+.secondary-header-txt {
+  font-size: 14px;
+  font-weight: 700;
+  color: #23a6f0;
+}
+.header-secondary {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 36px;
+}
+.header-mobile {
+  display: none;
+}
+.shopping-cart-heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+}
+.remove-all-heading {
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #ff4b4b;
+  text-decoration: underline;
+}
+.cart-heading-div {
+  display: flex;
+  justify-content: space-between;
+}
+.product-brand {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.product-category {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.cart-product-details {
+  display: flex;
+  flex-direction: column;
+}
+.cart-actions-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.product-save-txt {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 2px;
+  color: #23a6f0;
+}
+.product-remove-txt {
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 2px;
+  font-weight: 400;
+  color: #f16565;
+  text-decoration: underline;
+}
+.cart-main-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 20px;
+}
+@media only screen and (max-width: 999px) {
+  .header-secondary {
+    display: none;
+  }
+  .header-main {
+    display: none;
+  }
+  .header-mobile-nav {
+    padding: 36px 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-link-mobile {
+    font-size: 30px;
+    font-weight: 400;
+    color: #737373;
+    margin-top: 30px;
+  }
+  .nav-links-mobile-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-mobile {
+    display: block;
+  }
+}

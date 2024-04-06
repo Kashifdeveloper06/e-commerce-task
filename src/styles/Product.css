@@ -1,0 +1,27 @@
+.product-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 25px;
+  text-align: center;
+}
+.product-desc {
+  font-size: 16px;
+  color: #737373;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.product-discount-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #bdbdbd;
+}
+.product-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #23856d;
+}
+.product-main {
+  background-color: white;
+  cursor: pointer;
+  height: 100%;
+}
